@@ -1,0 +1,33 @@
+A test class tests a part of executed code
+Test cases are beneficial because they can test a small part of code before the entire program is finished.
+You can use unit tests as documentation to see how another persons project works.
+Assert null can test if an object is null
+Assert equals can test if values are equal to each other
+There are many different types of assert equals to test different types of data types
+Assert same test if two objects refer to the same object memory
+Asserts not same tests if two objects do not refer to the same object in memory
+Assert true tests if a condition is true
+Assert false tests if a condition is false
+You can use assert equals to test two collections to see if two collections contain equivalent objects.
+A iterable is used to return a series of objects in a for loop
+Before all annotation will run first before all other test methods
+Before forEach annotation will run once before each test method
+Before afterEach annotation will run once after each test method
+After all annotation will run last after all other test methods have been completed
+You can throw an exception error in test methods if there is incorrect formatting or values
+Assert throws exception test if your exception is working if you put in incorrect formatting or values.
+You can add messages to failed tests to describe the failures in more detail
+@DisplayName is used to declare a custom display name for the annotated test class or test method.
+@Disabled is used to signal that the annotated test class or test method is currently disabled and should not be executed.
+The assertAll method is used to throw all the exceptions caught during the process of running test.
+@Tag is a annotation that is used to declare a tag for a specific test that is being ran
+The extract method lets you take a code fragment that can be grouped, and move it into a separated method to make it easier to test
+Test helps in recording information about the indirect object created. It is a Fake object — used as a simpler implementation,
+TDE tends to produce designs that can be easily tested
+TDE helps produce clean code and interfaces
+Red, Green and Refactor is the three phases of Test Driven Development
+Red means to write enough code to fail
+Green means to write enough code to pass
+Refactor means to clean up the implementing of the code
+In TDE you want to write code it short cycles to get quick feedback
+
